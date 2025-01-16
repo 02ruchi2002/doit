@@ -1,0 +1,36 @@
+nav {
+    min-height: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid gray;
+}
+
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.app-name {
+    color: rgb(24, 102, 24);
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    nav {
+        height: 80px;
+        padding: 0px 20px;
+    }    
+    .app-name{
+        font-size: 26px;
+    }
+}
